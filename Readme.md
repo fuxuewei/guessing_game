@@ -4,7 +4,7 @@ Rust 无需 GC（Garbage collection 垃圾回收）即可保障内存安全
 
 ## 变量
 
-    ```
+    ```rust
     let x = 5; // 常量
     let mut y = 4; //变量
     ```
@@ -17,14 +17,14 @@ Rust 无需 GC（Garbage collection 垃圾回收）即可保障内存安全
 
 - 整型
 
-| 长度    | 有符号 | 无符号 |
-| ------- | ------ | ------ |
-| 8-bit   | i8     | u8     |
-| 16-bit  | i16    | u16    |
-| 32-bit  | i32    | u32    |
-| 64-bit  | i64    | u64    |
-| 128-bit | i128   | u128   |
-| arch    | isize  | usize  |
+        | 长度    | 有符号 | 无符号 |
+        | ------- | ------ | ------ |
+        | 8-bit   | i8     | u8     |
+        | 16-bit  | i16    | u16    |
+        | 32-bit  | i32    | u32    |
+        | 64-bit  | i64    | u64    |
+        | 128-bit | i128   | u128   |
+        | arch    | isize  | usize  |
 
 - 浮点型
   `let y: f32 = 3.0; `
